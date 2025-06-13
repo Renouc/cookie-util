@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from "@jest/globals";
-import { setCookie, getCookie, deleteCookie } from "../lib/cookie";
+import { setCookie, getCookie, deleteCookie } from "../src";
 
 describe("cookie", () => {
   beforeEach(() => {

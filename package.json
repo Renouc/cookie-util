@@ -1,24 +1,30 @@
 {
   "name": "@renouc/cookie-util",
   "description": "Cookie utility functions",
+  "version": "0.0.1-beta.0",
+  "author": "renouc <renouc01@gmail.com>",
+  "keywords": ["cookie", "utility", "frontend"],
+  "license": "ISC",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "types": "dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js",
+      "types": "./dist/types/index.d.ts",
+      "browser": "./dist/index.umd.js"
+    }
+  },
   "scripts": {
     "test": "jest",
     "build": "rollup -c"
   },
-  "exports": {
-    "import": "./dist/index.esm.js",
-    "require": "./dist/index.cjs.js"
-  },
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "types": "dist/types/index.d.ts",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "packageManager": "pnpm@10.11.0",
   "devDependencies": {
     "@babel/core": "^7.27.4",
@@ -35,6 +41,5 @@
     "ts-jest": "^29.4.0",
     "tslib": "^2.8.1",
     "typescript": "^5.8.3"
-  },
-  "version": "0.0.1-beta.0"
+  }
 }
