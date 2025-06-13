@@ -1,9 +1,13 @@
 {
   "name": "@renouc/cookie-util",
   "description": "Cookie utility functions",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1",
   "author": "renouc <renouc01@gmail.com>",
-  "keywords": ["cookie", "utility", "frontend"],
+  "keywords": [
+    "cookie",
+    "utility",
+    "frontend"
+  ],
   "license": "ISC",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
